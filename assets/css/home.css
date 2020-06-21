@@ -1,0 +1,59 @@
+    body {
+        margin: 0;
+        font-family: sans-serif;
+    }
+    
+    #contact-heading {
+        text-align: center;
+        margin-top: 25px;
+        color: grey;
+    }
+    
+    #Contact {
+        text-align: center;
+    }
+    
+    #contact-body {
+        width: 25%;
+        min-height: 3.5%;
+        background-color: cornflowerblue;
+        padding: 5px;
+        margin-bottom: 2.5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 37%;
+        cursor: pointer;
+    }
+    
+    #contact-body:hover {
+        background-color: rgba(29, 15, 15, 0.678);
+    }
+    
+    #contact-body span {
+        color: white;
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    form {
+        text-align: center;
+        margin-left: 2%;
+    }
+    
+    button {
+        background-color: rgba(29, 15, 15, 0.678);
+        color: white;
+        /* height: 40px; */
+        height: 20px;
+        width: 40px;
+        border: 0;
+        ;
+    }
+    
+    input {
+        border: 0;
+        border-bottom: 2px solid lightgray;
+    }
